@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  .container
+      h1 Streaming de Video
+      video#videoPlayer(controls)
+        | Tu navegador no soporta la etiqueta de video.
+    script(src="/javascript/app.js")
